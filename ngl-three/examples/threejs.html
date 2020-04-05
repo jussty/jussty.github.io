@@ -4,7 +4,7 @@
     <title>three.js webgl - NGL ThreeJSViewer demonstration</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="http://threejs.org/files/main.css">
+    <link type="text/css" rel="stylesheet" href="https://threejs.org/files/main.css">
     <style>
         body {
             background-color: #bfe3dd;
@@ -73,7 +73,7 @@
     scene.add( table );
 
     // 1. Load with static method into new group
-    ThreeJSViewer.load(renderer, camera, scene, "http://files.rcsb.org/ligands/view/ADN_ideal.sdf");
+    ThreeJSViewer.load(renderer, camera, scene, "https://files.rcsb.org/ligands/view/ADN_ideal.sdf");
 
     // 2. Split loading and rendering (static method, into new group)
     autoLoad("rcsb://1crn.mmtf").then(structure => {
